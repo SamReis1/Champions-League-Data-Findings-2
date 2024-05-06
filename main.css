@@ -1,0 +1,95 @@
+/* If using for Munno's 221, you must alter at least three style parameters and make sure that every bit of display text in the html document is authentic to your story. */
+
+
+/* selector {
+    property1: value1
+    property2: value2
+
+    } */
+
+/* for the first series of styles definitions, the selector - body, header, etc. - are predefined tags in htlm so we can reference elements directly. */
+
+/* Base styles for the entire document */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Google font Roboto for a modern look */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #555; /* Dark gray text color */
+}
+
+/* Styles for the header */
+header {
+    background-color: #FF6F61; /* Coral red for the header background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Center-align text */
+    font-size: 3rem; /* Larger font size */
+    border-bottom: 4px solid #FFBE3F; /* Golden border at the bottom */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #00539C; /* Dark blue for the footer background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding for footer */
+    text-align: center; /* Center-align text */
+}
+
+/* Styles for the main article content */
+article {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 20px auto; /* Center the content horizontally */
+    padding: 30px; /* More padding for article */
+    border: 2px solid #FF6F61; /* Coral red border */
+    border-radius: 10px; /* Rounded border */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #fff; /* White background */
+}
+
+/* Styles for headings */
+h1 {
+    font-size: 2.5rem; /* Larger font size for headings */
+    margin-top: 0; /* Remove default margin */
+    color: #FF6F61; /* Coral red heading color */
+}
+
+/* Styles for paragraphs */
+p {
+    line-height: 1.8; /* Increased line height for better readability */
+    margin-bottom: 30px; /* More margin bottom for paragraphs */
+}
+
+/* Styles for images */
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block-level element */
+    margin: 0 auto 30px; /* Center images horizontally with more margin at the bottom */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow for images */
+}
+
+/* Additional fancy styles for dek and byline */
+.dek {
+    font-style: italic; /* Italic font style */
+    font-size: 1.2rem; /* Smaller font size */
+    margin-bottom: 20px; /* Less margin bottom */
+    color: #FF6F61; /* Coral red text color */
+}
+
+.byline {
+    font-weight: bold; /* Bold font weight */
+    font-size: 1.2rem; /* Font size */
+    color: #00539C; /* Dark blue text color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    article {
+        padding: 20px; /* Adjusted padding for smaller screens */
+    }
+    header {
+        font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    }
+}
